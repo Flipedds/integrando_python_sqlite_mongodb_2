@@ -4,7 +4,7 @@ import pymongo as pyM
 from bson import ObjectId
 
 # conecta ao mongodb
-cliente = pyM.MongoClient(cliente)
+cliente = pyM.MongoClient("suas credenciais aqui")
 
 db = cliente.test
 collection = db.test_collection

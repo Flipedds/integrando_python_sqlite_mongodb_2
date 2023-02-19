@@ -2,7 +2,7 @@ import pymongo as pyM
 
 
 # conecta ao mongodb
-cliente = pyM.MongoClient(cliente)
+cliente = pyM.MongoClient("suas credenciais aqui")
 # Abrir banco de dados
 db = cliente.test
 collection = db.test_collection
